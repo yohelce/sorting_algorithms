@@ -21,6 +21,13 @@ int max_value(int *array, size_t size)
 	return (max);
 }
 
+/**
+ * counting_sort - sorts an array with the Counting sort algorithm
+ * @array: array to sort
+ * @size: size of the array
+ *
+ * Return: void
+ */
 
 void counting_sort(int *array, size_t size)
 {

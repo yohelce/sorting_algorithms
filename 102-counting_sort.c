@@ -36,7 +36,7 @@ void counting_sort(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 	/* Finding the max value */
-	max =  max_value(array, size);
+	max = max_value(array, size);
 	count_arr = malloc(sizeof(size_t) * (max + 1));
 	if (!count_arr)
 		return;
